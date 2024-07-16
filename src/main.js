@@ -20,10 +20,10 @@ const pinia = createPinia()
 
 // import errorimage from '@/assets/img/nophoto.png'
 app.use(VueLazyload, {
-    error: errorimage,
+    // error: errorimage,
 })
 
-app.use(routers)
+// app.use(routers)
 app.use(pinia)
 app.component('fa', FontAwesomeIcon)
 app.mount('#app')
